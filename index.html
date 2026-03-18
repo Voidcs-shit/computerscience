@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ciência da Computação</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+<script src="https://unpkg.com/lucide@latest"></script>
+
+</head>
+
+<body>
+
+<video autoplay muted loop id="bg-video">
+<source src="assets/crimson-butterfly-nightfall.1920x1080.mp4" type="video/mp4">
+</video>
+
+<canvas id="particles"></canvas>
+
+<div class="layout">
+
+<aside class="sidebar">
+
+<h1>Ciência da Computação</h1>
+
+<nav>
+<ul>
+
+<li onclick="location.href='index.html'">
+<i data-lucide="home"></i>
+Início
+</li>
+
+<li onclick="location.href='aulas.html'">
+<i data-lucide="book"></i>
+Aulas
+</li>
+
+<!-- 🔥 AGORA É FERRAMENTAS -->
+<li onclick="location.href='pages/ferramentas/index.html'">
+<i data-lucide="tool"></i>
+Ferramentas
+</li>
+
+</ul>
+</nav>
+
+</aside>
+
+<main class="content">
+
+<h2>Bem-vindos</h2>
+
+<p>
+Este site foi recriado para organizar os estudos de
+<strong>Ciência da Computação</strong>.
+</p>
+
+<br>
+
+<p>
+Agora ele possui uma identidade própria e foi desenvolvido
+diretamente no Visual Studio Code.
+</p>
+
+<br>
+
+<p>
+Se estiver usando este site para estudar, obrigado! Lembre-se de complementar com o conteúdo no Moodle.
+</p>
+
+<p>
+O site foi feito exclusivamente para Ciência da Computação, mas pode ser compartilhado com outras turmas.
+</p>
+
+<br>
+
+<p>
+Aqui você encontrará:
+</p>
+
+<ul>
+<li>Materiais das aulas</li>
+<li>Ferramentas úteis</li>
+</ul>
+
+</main>
+
+<aside class="rightpanel">
+
+<h3>Avisos</h3>
+
+<p>
+Espaço para links úteis, materiais ou avisos da turma.
+</p>
+
+</aside>
+
+</div>
+
+<script src="script.js"></script>
+
+<script>
+lucide.createIcons();
+</script>
+
+</body>
+</html>

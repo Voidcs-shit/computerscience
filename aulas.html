@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Aulas</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+<script src="https://unpkg.com/lucide@latest"></script>
+
+</head>
+
+<body class="page-aulas">
+
+<!-- VIDEO WALLPAPER -->
+<video autoplay muted loop playsinline class="bg-aulas">
+<source src="assets/serious-girl.1920x1080.mp4" type="video/mp4">
+</video>
+
+<!-- PARTICULAS -->
+<canvas id="particles"></canvas>
+
+<div class="layout">
+
+<!-- SIDEBAR PADRÃO -->
+<aside class="sidebar">
+
+<h1>Ciência da Computação</h1>
+
+<nav>
+<ul>
+
+<li onclick="location.href='index.html'">
+<i data-lucide="home"></i>
+<span>Início</span>
+</li>
+
+<li onclick="location.href='aulas.html'">
+<i data-lucide="book"></i>
+<span>Aulas</span>
+</li>
+
+<li onclick="location.href='pages/ferramentas/index.html'">
+<i data-lucide="tool"></i>
+<span>Ferramentas</span>
+</li>
+
+</ul>
+</nav>
+
+</aside>
+
+<!-- CONTEÚDO -->
+<main class="content">
+
+<h2>Matérias</h2>
+
+<div class="cards">
+
+<div class="card" onclick="location.href='pages/arquitetura/index.html'">
+Arquitetura de Computadores
+</div>
+
+<div class="card" onclick="location.href='pages/engenharia-requisitos/index.html'">
+Engenharia de Requisitos e Modelagem
+</div>
+
+<div class="card" onclick="location.href='pages/iot/index.html'">
+Fundamentos de IoT
+</div>
+
+<div class="card" onclick="location.href='pages/governanca/index.html'">
+Práticas de Gestão e Governança em TI
+</div>
+
+<div class="card" onclick="location.href='pages/ux-ui/index.html'">
+Projeto Integrador: UX/UI Design
+</div>
+
+<div class="card" onclick="location.href='pages/prototipagem/index.html'">
+Prototipagem e Metodologia de Desenvolvimento
+</div>
+
+<div class="card" onclick="location.href='pages/topicos-emergentes/index.html'">
+Tópicos Emergentes em Tecnologia e Inovação
+</div>
+
+</div>
+
+</main>
+
+<!-- PAINEL DIREITO -->
+<aside class="rightpanel">
+
+<h3>Aulas</h3>
+
+<p>
+Selecione uma matéria para visualizar as aulas disponíveis.
+</p>
+
+</aside>
+
+</div>
+
+<script src="script.js"></script>
+
+<script>
+lucide.createIcons();
+</script>
+
+</body>
+</html>
